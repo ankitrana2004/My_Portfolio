@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.header{
+    color: white;
+
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.Home{
+  background-color: black;  
+}
+.gradient-text {
+  background: linear-gradient(to right, #ef4444, #8b5cf6, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: black;
+}
+
+h2{
+    color: white;
+}
+
+.Skill-badge {
+  background-color: #374151; /* gray-700 */
+  padding: 0.75rem 0;
+  border-radius: 0.5rem;
+  display: inline-block;
+  color: white;
+}
+
+.project-card {
+  background-color: #1f2937; /* gray-800 */
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-link {
+  color: #f87171; /* red-400 */
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankiy</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+</head>
+<body>
+    <header class="header">
+    <div class="text-xl justify-center flex gap-10 font-bold gradient-text ">
+        <a href="#Home">Home</a>
+        <a href="#About">About Me</a>
+        <a href="#Skill">Skills</a>
+        <a href="#Projects">Project</a>
+        <a href="#Contact">Contact</a>
+    </div>
+    </header>
+    <!---hero section-->
+
+    <section id="Home"class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <div class="Home">
+     <h1 class="text-5xl md:text-6xl font-extrabold gradient-text">Hi, I'm Ankit</h1>
+     <p class="mt-4 text-lg text-gray-400">Aspiring Softwear Engineer • Fullstack Devloper  • Ai Enthusiast</p>
+     <a href="#Projects" class="mt-6 inline-block bg-red-600 hover:bg-red-700 px-6 py-3 rounded-full font-semibold">View My Projects</a>
+    </div>    
+    </section>
+    <!--about me-->
+
+    <section id="About" class="p-10 bg-gray-900">
+        <h2 class="text-3xl font-bold text-center mb-4">About Me</h2>
+        <p class="max-w-3xl mx-auto text-center text-gray-400">I'm ankit a cursour coder and future Softwear Engineer, I'm learning python, building ai tools,and designing smart solutions currently working on Stock market analysis Ai tool and printing advertising website </p>
+    </section>
+    <!--skills-->
+    <section id="Skill">
+     <h2 class="text-3xl font-bold text-center mb-6">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+    <span class="Skill-badge">Python</span>
+    <span class="Skill-badge">Java</span>
+    <span class="Skill-badge">React</span>
+    <span class="Skill-badge">Node js</span>
+    <span class="Skill-badge">SmartApi</span>
+    <span class="Skill-badge">Problem solving</span>
+    <span class="Skill-badge">Html</span>
+    <span class="Skill-badge">Debugging</span>
+    <span class="Skill-badge">Talwind css</span>
+    <span class="Skill-badge">Debugging</span>
+    </div>
+    </section>
+      <!-- Projects Section -->
+  <section id="Projects" class="p-10 bg-gray-900">
+    <h2 class="text-3xl font-bold text-center mb-6">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="project-card">
+        <h3 class="text-xl font-semibold mb-2 text-gray-400">📈 Stock Market AI Tool</h3>
+        <p class="text-gray-400 mb-4">Python-based chart analysis tool with SmartAPI integration for buy/sell signals.</p>
+        <a href="#" class="project-link">View GitHub</a>
+      </div>
+      <div class="Project-card">
+        <h3 class="text-xl font-semibold mb-2 text-gray-400">📽 Netflix Clone</h3>
+        <p class="text-gray-400 mb-4">Creative resposive Netflix clone using HTML and CSS.</p>
+        <a href="Netflix%20clone/Netflix.html" class="project-link">Live Preview</a>
+      </div>
+      <div class="Project-card">
+        <h3 class="text-xl font-semibold mb-2 text-gray-400">💸 ATM Machine</h3>
+        <p class="text-gray-400 mb-4">Efficient ATM Machine operations (Show Balance, Credit Balance, Debit Balance) in Java.</p>
+        <a href="https://github.com/ankitrana2004/ATM-machine" class="project-link">View Code</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="Contact" class="bg-gradient-to-r from-purple-900 via-black to-red-900 p-10">
+    <h2 class="text-3xl font-bold text-center mb-6">Let's Connect</h2>
+    <form action="https://formsubmit.co/ankitpratap76509@gmail.com" method="POST" class="max-w-xl mx-auto grid grid-cols-1 gap-4">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://yourwebsite.com/thanks.html">
+  
+  <input name="name" type="text" placeholder="Your Name" class="p-3 rounded text-black" required>
+  <input name="email" type="email" placeholder="Your Email" class="p-3 rounded text-black" required>
+  <textarea name="message" placeholder="Your Message" class="p-3 rounded text-black" rows="4" required></textarea>
+  
+  <button type="submit" class="bg-red-600 hover:bg-red-700 text-white py-3 rounded font-bold" id="btn1">
+    Send Message
+  </button>
+</form>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-400 text-center p-6 text-sm">
+    © 2025 Ankiy.dev – Built with 💻 by Ankiy
+  </footer>
+  <script src="javascript.js"></script>
+</body>
+</html>
